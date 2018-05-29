@@ -1,4 +1,4 @@
-imports.BattleItems = {
+exports.BattleItems = {
 	"abomasite": {
 		id: "abomasite",
 		name: "Abomasite",
