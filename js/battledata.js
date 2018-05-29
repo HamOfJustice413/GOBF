@@ -402,12 +402,12 @@ var Tools = {
 	resourcePrefix: (function () {
 		var prefix = '';
 		if (document.location.protocol === 'file:') prefix = 'https:';
-		return prefix + '//github.com/MrAquamentus/GOBF/blob/master/';
+		return prefix + 'https://mraquamentus.github.io/GOBF/';
 	})(),
 
 	fxPrefix: (function () {
 		if (document.location.protocol === 'file:') {
-			if (window.Replays) return 'github.com/MrAquamentus/GOBF/blob/master/fx/';
+			if (window.Replays) return 'https://mraquamentus.github.io/GOBF/fx/';
 			return 'fx/';
 		}
 		return '//play.pokemonshowdown.com/fx/';
