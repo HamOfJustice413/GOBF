@@ -402,7 +402,7 @@ var Tools = {
 	resourcePrefix: (function () {
 		var prefix = '';
 		if (document.location.protocol === 'file:') prefix = 'https:';
-		return prefix + 'https://mraquamentus.github.io/GOBF/';
+		return prefix + '//mraquamentus.github.io/GOBF/';
 	})(),
 
 	fxPrefix: (function () {
