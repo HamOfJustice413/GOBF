@@ -1,7 +1,4 @@
-'use strict';
-
-/**@type {{[k: string]: ItemData}} */
-let BattleItems = {
+imports.BattleItems = {
 	"abomasite": {
 		id: "abomasite",
 		name: "Abomasite",
