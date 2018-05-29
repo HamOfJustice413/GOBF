@@ -18,12 +18,21 @@
 				elem.src = src.replace(/.*\/?data\//g, 'https://play.pokemonshowdown.com/data/');
 				document.head.appendChild(elem);
 			}
-			var Config = {testclient: false};
-				Config.server = {
-					id: '',
-					host: 'localhost',
-					port: '413',
+			var Config = {testclient: true};
+			(function() {
+				if (location.search !== '') {
+					var m = /\?~~(([^:\/]*)(:[0-9]*)?)/.exec(location.search);
+					if (m) {
+						Config.server = {
+							id: m[1],
+							host: m[2],
+							port: (m[3] && parseInt(m[3].substr(1))) || 8000
+						};
+					} else {
+						alert('Unrecognised query string syntax: ' + location.search);
+					}
 				}
+			})();
 		</script>
 		<!--[if lte IE 8]><script>
 			Config.oldie = true;
