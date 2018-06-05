@@ -676,7 +676,7 @@
 				Config.server.host = $.trim(Config.server.host);
 //				return new SockJS(protocol + '://' + Config.server.host + ':' +
 //					Config.server.port + Config.sockjsprefix);
-				return new SockJS('http://108.248.181.14:413/showdown');
+				return new SockJS('http://localhost:413/showdown');
 			};
 			this.socket = constructSocket();
 			setInterval(function () {
