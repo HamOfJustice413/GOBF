@@ -673,7 +673,7 @@
 			var self = this;
 			var constructSocket = function () {
 //			var protocol = (Config.server.port === 443) ? 'https' : 'http';
-			var protocol = (Config.server.port === 443) ? 'https' : 'https';
+			var protocol = 'https';
 				Config.server.host = $.trim(Config.server.host);
 				return new SockJS(protocol + '://' + Config.server.host + ':' +
 					Config.server.port + Config.sockjsprefix);
