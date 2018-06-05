@@ -674,9 +674,8 @@
 			var constructSocket = function () {
 			var protocol = (Config.server.port === 443) ? 'https' : 'http';
 				Config.server.host = $.trim(Config.server.host);
-//				return new SockJS(protocol + '://' + Config.server.host + ':' +
-//					Config.server.port + Config.sockjsprefix);
-				return new SockJS('https://localhost:413' + Config.sockjsprefix);
+				return new SockJS(protocol + '://' + Config.server.host + ':' +
+					Config.server.port + Config.sockjsprefix);
 			};
 			this.socket = constructSocket();
 			setInterval(function () {
