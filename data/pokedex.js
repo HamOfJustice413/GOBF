@@ -2245,7 +2245,7 @@ let BattlePokedex = {
 		gender: "N",
 		baseStats: {hp: 30, atk: 45, def: 55, spa: 70, spd: 55, spe: 85},
 		abilities: {0: "Illuminate", 1: "Natural Cure", H: "Analytic"},
-		otherFormes: {"staryufrontier"],
+		otherFormes: {"staryufrontier"},
 		heightm: 0.8,
 		weightkg: 34.5,
 		color: "Brown",
