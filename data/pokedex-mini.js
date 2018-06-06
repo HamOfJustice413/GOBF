@@ -1155,7 +1155,17 @@ exports.BattlePokemonSprites = {
 	pokestarwhitedoorprop:{num:-5013},
 	pokestarblackbelt:{num:-5014,front:{w:96,h:96},back:{w:96,h:96}},
 	pokestarblackbeltprop:{num:-5014},
-	pokestarufo2:{num:-5001,front:{w:179,h:119},back:{w:179,h:119}},
+	pokestarufo2:{num:-5001},
 	terrofiend: {num:1001},
+	pufferate: {num:1002},
+	mimesr: {num:1003},
+	terneon: {num:1004},
+	mercured: {num:1005},
+	metrobot: {num:1006},
+	staryufrontier: {num:120},
+	starmiefrontier: {num:121},
+	florgesfrontier: {num:671},
+	goodrafronter: {num:706},
+	infernapefrontier: {num:392},
 	empoleonfrontier: {num:395}
 };
