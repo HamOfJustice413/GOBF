@@ -2245,6 +2245,7 @@ let BattlePokedex = {
 		gender: "N",
 		baseStats: {hp: 30, atk: 45, def: 55, spa: 70, spd: 55, spe: 85},
 		abilities: {0: "Illuminate", 1: "Natural Cure", H: "Analytic"},
+		otherFormes: {"staryufrontier"],
 		heightm: 0.8,
 		weightkg: 34.5,
 		color: "Brown",
@@ -2258,6 +2259,7 @@ let BattlePokedex = {
 		gender: "N",
 		baseStats: {hp: 60, atk: 75, def: 85, spa: 100, spd: 85, spe: 115},
 		abilities: {0: "Illuminate", 1: "Natural Cure", H: "Analytic"},
+		otherFormes: {"starmiefrontier"},
 		heightm: 1.1,
 		weightkg: 80,
 		color: "Purple",
@@ -2275,6 +2277,7 @@ let BattlePokedex = {
 		weightkg: 54.5,
 		color: "Pink",
 		prevo: "mimejr",
+		evos: "mimesr",
 		evoLevel: 1,
 		evoMove: "Mimic",
 		eggGroups: ["Human-Like"],
@@ -2446,7 +2449,7 @@ let BattlePokedex = {
 		heightm: 0.3,
 		weightkg: 6.5,
 		color: "Brown",
-		evos: ["vaporeon", "jolteon", "flareon", "espeon", "umbreon", "leafeon", "glaceon", "sylveon"],
+		evos: ["vaporeon", "jolteon", "flareon", "espeon", "umbreon", "leafeon", "glaceon", "sylveon", "terneon"],
 		eggGroups: ["Field"],
 	},
 	vaporeon: {
@@ -2455,7 +2458,7 @@ let BattlePokedex = {
 		types: ["Water"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 130, atk: 65, def: 60, spa: 110, spd: 95, spe: 65},
-		abilities: {0: "Water Absorb", H: "Hydration"},
+		abilities: {0: "Water Absorb", 1: "Galvanize", H: "Hydration"},
 		heightm: 1,
 		weightkg: 29,
 		color: "Blue",
@@ -2469,7 +2472,7 @@ let BattlePokedex = {
 		types: ["Electric"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 65, atk: 65, def: 60, spa: 110, spd: 95, spe: 130},
-		abilities: {0: "Volt Absorb", H: "Quick Feet"},
+		abilities: {0: "Volt Absorb", 1: "Hot-Blooded", H: "Quick Feet"},
 		heightm: 0.8,
 		weightkg: 24.5,
 		color: "Yellow",
@@ -2482,8 +2485,8 @@ let BattlePokedex = {
 		species: "Flareon",
 		types: ["Fire"],
 		genderRatio: {M: 0.875, F: 0.125},
-		baseStats: {hp: 65, atk: 130, def: 60, spa: 95, spd: 110, spe: 65},
-		abilities: {0: "Flash Fire", H: "Guts"},
+		baseStats: {hp: 110, atk: 130, def: 60, spa: 65, spd: 95, spe: 65},
+		abilities: {0: "Flash Fire", 1: "Hydrate", H: "Guts"},
 		heightm: 0.9,
 		weightkg: 25,
 		color: "Red",
@@ -6316,7 +6319,7 @@ let BattlePokedex = {
 		weightkg: 22,
 		color: "Brown",
 		prevo: "chimchar",
-		evos: ["infernape"],
+		evos: ["infernape", "infernapefrontier"],
 		evoLevel: 14,
 		eggGroups: ["Field", "Human-Like"],
 	},
@@ -6332,6 +6335,7 @@ let BattlePokedex = {
 		color: "Brown",
 		prevo: "monferno",
 		evoLevel: 36,
+		otherFormes: ["infernapefrontier"],
 		eggGroups: ["Field", "Human-Like"],
 	},
 	piplup: {
@@ -6358,7 +6362,7 @@ let BattlePokedex = {
 		weightkg: 23,
 		color: "Blue",
 		prevo: "piplup",
-		evos: ["empoleon"],
+		evos: ["empoleon", "empoleonfrontier"],
 		evoLevel: 16,
 		eggGroups: ["Water 1", "Field"],
 	},
@@ -6373,6 +6377,7 @@ let BattlePokedex = {
 		weightkg: 84.5,
 		color: "Blue",
 		prevo: "prinplup",
+		otherFormes: ["empoleonfrontier"],
 		evoLevel: 36,
 		eggGroups: ["Water 1", "Field"],
 	},
@@ -7467,7 +7472,7 @@ let BattlePokedex = {
 		species: "Glaceon",
 		types: ["Ice"],
 		genderRatio: {M: 0.875, F: 0.125},
-		baseStats: {hp: 65, atk: 60, def: 110, spa: 130, spd: 95, spe: 65},
+		baseStats: {hp: 110, atk: 60, def: 95, spa: 130, spd: 65, spe: 65},
 		abilities: {0: "Snow Cloak", H: "Ice Body"},
 		heightm: 0.8,
 		weightkg: 25.9,
@@ -9383,8 +9388,8 @@ let BattlePokedex = {
 		species: "Sawsbuck",
 		baseForme: "Spring",
 		types: ["Normal", "Grass"],
-		baseStats: {hp: 80, atk: 100, def: 70, spa: 60, spd: 70, spe: 95},
-		abilities: {0: "Chlorophyll", 1: "Sap Sipper", H: "Serene Grace"},
+		baseStats: {hp: 80, atk: 110, def: 70, spa: 60, spd: 70, spe: 105},
+		abilities: {0: "Regenerator", 1: "Sap Sipper", H: "Serene Grace"},
 		heightm: 1.9,
 		weightkg: 92.5,
 		color: "Brown",
@@ -10433,7 +10438,7 @@ let BattlePokedex = {
 		types: ["Fire", "Psychic"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 75, atk: 69, def: 72, spa: 114, spd: 100, spe: 104},
-		abilities: {0: "Blaze", H: "Magician"},
+		abilities: {0: "Blaze", 1: "Magic Guard", H: "Magician"},
 		heightm: 1.5,
 		weightkg: 39,
 		color: "Red",
@@ -10686,7 +10691,7 @@ let BattlePokedex = {
 		weightkg: 0.9,
 		color: "White",
 		prevo: "flabebe",
-		evos: ["florges"],
+		evos: ["florges", "florgesfrontier"],
 		evoLevel: 19,
 		eggGroups: ["Fairy"],
 		otherForms: ["floetteblue", "floetteorange", "floettewhite", "floetteyellow"],
@@ -10722,6 +10727,7 @@ let BattlePokedex = {
 		evoLevel: 19,
 		eggGroups: ["Fairy"],
 		otherForms: ["florgesblue", "florgesorange", "florgeswhite", "florgesyellow"],
+		otherFormes: ["florgesfrontier"],
 	},
 	skiddo: {
 		num: 672,
@@ -11186,7 +11192,7 @@ let BattlePokedex = {
 		weightkg: 17.5,
 		color: "Purple",
 		prevo: "goomy",
-		evos: ["goodra"],
+		evos: ["goodra", "goodrafrontier"],
 		evoLevel: 40,
 		eggGroups: ["Dragon"],
 	},
@@ -11201,6 +11207,7 @@ let BattlePokedex = {
 		color: "Purple",
 		prevo: "sliggoo",
 		evoLevel: 50,
+		otherFormes: ["goodrafrontier"],
 		eggGroups: ["Dragon"],
 	},
 	klefki: {
@@ -14036,21 +14043,6 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 	},
 
-	mrmime: {
-		inherit: true,
-		evos: ["mimesr"],
-	},
-
-	sliggoo: {
-		inherit: true,
-		evos: ["goodra", "goodrafrontier"],
-	},
-
-	goodra: {
-		inherit: true,
-		otherFormes: ["goodrafrontier"],
-	},
-
 	goodrafrontier: {
 		num: 706,
 		species: "Goodra-Frontier",
@@ -14069,14 +14061,12 @@ let BattlePokedex = {
 		tier: ["CAP"],
 	},
 
-	florges: {
-		inherit: true,
-		otherForms: ["florgesblue", "florgesorange", "florgeswhite", "florgesyellow", "florgesfrontier"],
-	},
-
 	florgesfrontier: {
 		num: 671,
 		species: "Florges-Frontier",
+		baseSpecies: "Florges",
+		forme: "Frontier",
+		formeLetter: "F",
 		types: ["Fairy", "Grass"],
 		gender: "F",
 		baseStats: {hp: 78, atk: 65, def: 68, spa: 112, spd: 154, spe: 75},
@@ -14087,7 +14077,8 @@ let BattlePokedex = {
 		prevo: "floette",
 		evoLevel: 19,
 		eggGroups: ["Fairy"],
-		otherForms: ["florges", "florgesblue", "florgesorange", "florgeswhite", "florgesyellow"],
+		otherFormes: ["florges"],
+		tier: ["CAP"],
 	},
 
 	terrofiend: {
@@ -14132,21 +14123,13 @@ let BattlePokedex = {
 		tier: ["CAP"],
 	},
 
-	staryu: {
-		inherit: true,
-		otherFormes: ["staryufrontier"],
-	},
-
-	starmie: {
-		inherit: true,
-		otherFormes: ["starmiefrontier"],
-	},
-
 	staryufrontier: {
 		num: 120,
 		species: "Staryu-Frontier",
 		types: ["Electric"],
 		gender: "N",
+		baseSpecies: "Staryu",
+		forme: "Frontier",
 		formeLetter: "F",
 		baseStats: {hp: 30, atk: 40, def: 60, spa: 60, spd: 60, spe: 90},
 		abilities: {0: "Singularity"},
@@ -14164,6 +14147,8 @@ let BattlePokedex = {
 		species: "Starmie-Frontier",
 		types: ["Electric", "Psychic"],
 		gender: "N",
+		baseSpecies: "Starmie",
+		forme: "Frontier",
 		formeLetter: "F",
 		baseStats: {hp: 60, atk: 70, def: 90, spa: 90, spd: 90, spe: 120},
 		abilities: {0: "Singularity"},
@@ -14177,22 +14162,13 @@ let BattlePokedex = {
 		otherFormes: ["starmie"],
 	},
 
-	prinplup: {
-		inherit: true,
-		evos: ["empoleon", "empoleonfrontier"], 
-	},
-
-	empoleon: {
-		inherit: true,
-		otherFormes: ["empoleonfrontier"],
-	},
-
 	empoleonfrontier: {
 		num: 395,
 		species: "Empoleon-Frontier",
-		baseSpecies: "Empoleon",
 		types: ["Water", "Steel"],
 		genderRatio: {M: 0.875, F: 0.125},
+		baseSpecies: "Empoleon",
+		forme: "Frontier",
 		formeLetter: "F",
 		baseStats: {hp: 84, atk: 111, def: 88, spa: 60, spd: 86, spe: 101},
 		abilities: {0: "Tough Claws"},
@@ -14206,22 +14182,13 @@ let BattlePokedex = {
 		otherFormes: ["empoleon"],
 	},
 
-	monferno: {
-		inherit: true,
-		evos: ["infernape", "infernapefrontier"], 
-	},
-
-	infernape: {
-		inherit: true,
-		otherFormes: ["infernapefrontier"],
-	},
-
 	infernapefrontier: {
 		num: 392,
 		species: "Infernape-Frontier",
-		baseSpecies: "Infernape",
 		types: ["Fire", "Fighting"],
 		genderRatio: {M: 0.875, F: 0.125},
+		baseSpecies: "Starmie",
+		forme: "Frontier",
 		formeLetter: "F",
 		baseStats: {hp: 108, atk: 71, def: 71, spa: 104, spd: 104, spe: 76},
 		abilities: {0: "Levitate"},
@@ -14233,11 +14200,6 @@ let BattlePokedex = {
 		eggGroups: ["Field", "Human-Like"],
 		tier: ["CAP"],
 		otherFormes: ["infernape"],
-	},
-
-	eevee: {
-		inherit: true,
-		evos: ["vaporeon", "jolteon", "flareon", "espeon", "umbreon", "leafeon", "glaceon", "sylveon", "terneon"],
 	},
 
 	terneon: {
@@ -14281,39 +14243,6 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		tier: ["CAP"],
 	},
-
-	vaporeon: {
-		inherit: true,
-		abilities: {0: "Water Absorb", 1: "Galvanize", H: "Hydration"},
-	},
-
-	jolteon: {
-		inherit: true,
-		abilities: {0: "Volt Absorb", 1: "Hot-Blooded", H: "Quick Feet"},
-	},
-
-	flareon: {
-		inherit: true,
-		baseStats: {hp: 110, atk: 130, def: 60, spa: 65, spd: 95, spe: 65},
-		abilities: {0: "Flash Fire", 1: "Hydrate", H: "Guts"},
-	},
-
-	glaceon: {
-		inherit: true,
-		baseStats: {hp: 110, atk: 60, def: 95, spa: 130, spd: 65, spe: 65},
-	},
-
-	delphox: {
-		inherit: true,
-		abilities: {0: "Blaze", 1: "Magic Guard", H: "Magician"},
-	},
-
-	sawsbuck: {
-		inherit: true,
-		baseStats: {hp: 80, atk: 110, def: 70, spa: 60, spd: 70, spe: 105},
-		abilities: {0: "Regenerator", 1: "Sap Sipper", H: "Serene Grace"},
-	},
-
 };
 
 exports.BattlePokedex = BattlePokedex;
