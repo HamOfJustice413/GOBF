@@ -7233,7 +7233,7 @@ var Battle = (function () {
 		}
 	};
 	Battle.prototype.preloadBgm = function () {
-		var bgmNum = Math.floor(Math.random() * 4);
+		var bgmNum = Math.ceil(Math.random() * 4);
 
 		if (window.forceBgm || window.forceBgm === 0) bgmNum = window.forceBgm;
 		window.bgmNum = bgmNum;
