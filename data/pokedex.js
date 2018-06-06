@@ -14187,7 +14187,7 @@ let BattlePokedex = {
 		species: "Infernape-Frontier",
 		types: ["Fire", "Fighting"],
 		genderRatio: {M: 0.875, F: 0.125},
-		baseSpecies: "Starmie",
+		baseSpecies: "Infernape",
 		forme: "Frontier",
 		formeLetter: "F",
 		baseStats: {hp: 108, atk: 71, def: 71, spa: 104, spd: 104, spe: 76},
