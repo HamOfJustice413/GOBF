@@ -13628,6 +13628,7 @@ let BattleLearnsets = {
 		trickroom: ["7M", "6M", "5M", "4M"],
 		wakeupslap: ["7E", "6E", "5E", "4E"],
 		wideguard: ["7L1", "6L1", "5L1"],
+		wish: ["7L1"],
 		wonderroom: ["7T", "6T", "5T"],
 		zapcannon: ["7V"],
 		zenheadbutt: ["7T", "6T", "5T", "4T"],
