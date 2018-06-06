@@ -1155,5 +1155,7 @@ exports.BattlePokemonSprites = {
 	pokestarwhitedoorprop:{num:-5013},
 	pokestarblackbelt:{num:-5014,front:{w:96,h:96},back:{w:96,h:96}},
 	pokestarblackbeltprop:{num:-5014},
-	pokestarufo2:{num:-5001,front:{w:179,h:119},back:{w:179,h:119}}
+	pokestarufo2:{num:-5001,front:{w:179,h:119},back:{w:179,h:119}},
+	terrofiend: {num:1001},
+	empoleonfrontier: {num:395}
 };

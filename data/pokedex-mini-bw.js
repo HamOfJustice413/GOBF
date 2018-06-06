@@ -1155,4 +1155,6 @@ exports.BattlePokemonSpritesBW = {
 	pokestarblackbelt:{num:-5014,front:{w:96,h:96},back:{w:96,h:96}},
 	pokestarblackbeltprop:{num:-5014},
 	pokestarufo2:{num:-5001}
+	terrofiend: {num:1001},
+	empoleonfrontier: {num:395}
 };
