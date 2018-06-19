@@ -7233,7 +7233,7 @@ var Battle = (function () {
 		}
 	};
 	Battle.prototype.preloadBgm = function () {
-		var bgmNum = Math.ceil(Math.random() * 4);
+		var bgmNum = Math.ceil(Math.random() * 12);
 
 		if (window.forceBgm || window.forceBgm === 0) bgmNum = window.forceBgm;
 		window.bgmNum = bgmNum;
@@ -7254,6 +7254,38 @@ var Battle = (function () {
 		case 4:
 			BattleSound.loadBgm('audio/initialstrike.mp3');
 			this.bgm = 'audio/initialstrike.mp3';
+			break;
+		case 5:
+			BattleSound.loadBgm('audio/battlegeneration.mp3');
+			this.bgm = 'audio/battlegeneration.mp3';
+			break;
+		case 6:
+			BattleSound.loadBgm('audio/battlesequence.mp3');
+			this.bgm = 'audio/battlesequence.mp3';
+			break;
+		case 7:
+			BattleSound.loadBgm('audio/disconnected.mp3');
+			this.bgm = 'audio/disconnected.mp3';
+			break;
+		case 8:
+			BattleSound.loadBgm('audio/gorgeousfoe.mp3');
+			this.bgm = 'audio/gorgeousfoe.mp3';
+			break;
+		case 9:
+			BattleSound.loadBgm('audio/nefariousm.mp3');
+			this.bgm = 'audio/nefariousm.mp3';
+			break;
+		case 10:
+			BattleSound.loadBgm('audio/noteblockken.mp3');
+			this.bgm = 'audio/noteblockken.mp3';
+			break;
+		case 11:
+			BattleSound.loadBgm('audio/revueguile.mp3');
+			this.bgm = 'audio/revueguile.mp3';
+			break;
+		case 12:
+			BattleSound.loadBgm('audio/tobrukcrater.mp3');
+			this.bgm = 'audio/tobrukcrater.mp3';
 			break;
 		}
 	};
