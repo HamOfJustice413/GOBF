@@ -7,7 +7,7 @@ Config.defaultserver = {
 	port: 413,
 	httpport: 413,
 	altport: 80,
-	registered: false
+	registered: true
 };
 
 function Storage() {}
