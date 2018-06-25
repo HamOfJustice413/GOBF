@@ -93,7 +93,8 @@ var BattleSoundLibrary = (function () {
 			return (this.bgmCache[url] = this.soundPlaceholder);
 		}
 		this.bgmCache[url].onposition(loopend, function (evP) {
-			this.setPosition(this.position - (loopend - loopstart));
+			//this.setPosition(this.position - (loopend - loopstart));
+			this.setPosition(0);
 		});
 		return this.bgmCache[url];
 	};
