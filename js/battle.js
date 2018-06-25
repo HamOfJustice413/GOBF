@@ -94,7 +94,10 @@ var BattleSoundLibrary = (function () {
 		}
 		this.bgmCache[url].onposition(loopend, function (evP) {
 			//this.setPosition(this.position - (loopend - loopstart));
-			this.setPosition(0);
+			//this.setPosition(0);
+			//AQUAMENTUS
+			this.preloadBgm();
+			BattleSound.playBgm(this.bgm);
 		});
 		return this.bgmCache[url];
 	};
@@ -7294,7 +7297,9 @@ var Battle = (function () {
 		BattleSound.setMute(mute);
 	};
 	Battle.prototype.soundStart = function () {
-		if (!this.bgm) this.preloadBgm();
+		//if (!this.bgm) this.preloadBgm();
+		this.preloadBgm();
+		//AQUAMENTUS
 		BattleSound.playBgm(this.bgm);
 	};
 	Battle.prototype.soundStop = function () {
