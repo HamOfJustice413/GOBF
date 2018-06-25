@@ -7297,9 +7297,7 @@ var Battle = (function () {
 		BattleSound.setMute(mute);
 	};
 	Battle.prototype.soundStart = function () {
-		//if (!this.bgm) this.preloadBgm();
-		this.preloadBgm();
-		//AQUAMENTUS
+		if (!this.bgm) this.preloadBgm();
 		BattleSound.playBgm(this.bgm);
 	};
 	Battle.prototype.soundStop = function () {
