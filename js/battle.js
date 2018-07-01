@@ -7237,7 +7237,7 @@ var Battle = (function () {
 		}
 	};
 	Battle.prototype.preloadBgm = function () {
-		var bgmNum = Math.ceil(Math.random() * 15);
+		var bgmNum = Math.ceil(Math.random() * 32);
 
 		if (window.forceBgm || window.forceBgm === 0) bgmNum = window.forceBgm;
 		window.bgmNum = bgmNum;
@@ -7302,6 +7302,74 @@ var Battle = (function () {
 		case 15:
 			BattleSound.loadBgm('audio/tobrukcrater.mp3');
 			this.bgm = 'audio/tobrukcrater.mp3';
+			break;
+		case 16:
+			BattleSound.loadBgm('audio/azuritetrainer.mp3');
+			this.bgm = 'audio/azuritetrainer.mp3';
+			break;
+		case 17:
+			BattleSound.loadBgm('audio/betusblues.mp3');
+			this.bgm = 'audio/betusblues.mp3';
+			break;
+		case 18:
+			BattleSound.loadBgm('audio/dogshowl.mp3');
+			this.bgm = 'audio/dogshowl.mp3';
+			break;
+		case 19:
+			BattleSound.loadBgm('audio/fearofflight.mp3');
+			this.bgm = 'audio/fearofflight.mp3';
+			break;
+		case 20:
+			BattleSound.loadBgm('audio/ffdimensionslight.mp3');
+			this.bgm = 'audio/ffdimensionslight.mp3';
+			break;
+		case 21:
+			BattleSound.loadBgm('audio/ffdimensionsdark.mp3');
+			this.bgm = 'audio/ffdimensionsdark.mp3';
+			break;
+		case 22:
+			BattleSound.loadBgm('audio/hoennrivalarrange.mp3');
+			this.bgm = 'audio/hoennrivalarrange.mp3';
+			break;
+		case 23:
+			BattleSound.loadBgm('audio/johtotrainerarrange.mp3');
+			this.bgm = 'audio/johtotrainerarrange.mp3';
+			break;
+		case 24:
+			BattleSound.loadBgm('audio/kantotrainerarrange.mp3');
+			this.bgm = 'audio/kantotrainerarrange.mp3';
+			break;
+		case 25:
+			BattleSound.loadBgm('audio/lifespurpose.mp3');
+			this.bgm = 'audio/lifespurpose.mp3';
+			break;
+		case 26:
+			BattleSound.loadBgm('audio/oldschoolidk.mp3');
+			this.bgm = 'audio/oldschoolidk.mp3';
+			break;
+		case 27:
+			BattleSound.loadBgm('audio/pokeremixiris.mp3');
+			this.bgm = 'audio/pokeremixiris.mp3';
+			break;
+		case 28:
+			BattleSound.loadBgm('audio/rainbow.mp3');
+			this.bgm = 'audio/rainbow.mp3';
+			break;
+		case 29:
+			BattleSound.loadBgm('audio/talesoflegendiabattle.mp3');
+			this.bgm = 'audio/talesoflegendiabattle.mp3';
+			break;
+		case 30:
+			BattleSound.loadBgm('audio/twilightremix.mp3');
+			this.bgm = 'audio/twilightremix.mp3';
+			break;
+		case 31:
+			BattleSound.loadBgm('audio/derpinator.mp3');
+			this.bgm = 'audio/derpinator.mp3';
+			break;
+		case 32:
+			BattleSound.loadBgm('audio/justyouandme.mp3');
+			this.bgm = 'audio/justyouandme.mp3';
 			break;
 
 		}
