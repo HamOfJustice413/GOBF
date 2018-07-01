@@ -54,7 +54,7 @@ var BattleSoundLibrary = (function () {
 	BattleSoundLibrary.prototype.bgmVolume = 50;
 	BattleSoundLibrary.prototype.muted = false;
 
-	BattleSoundLibrary.prototype.onFinish = function {
+	BattleSoundLibrary.prototype.onFinish = function (url) {
 		this.preloadBgm();
 	};
 
