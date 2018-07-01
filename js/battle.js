@@ -56,7 +56,7 @@ var BattleSoundLibrary = (function () {
 
 	BattleSoundLibrary.prototype.onFinish = function {
 		this.preloadBgm();
-	}
+	};
 
 	BattleSoundLibrary.prototype.loadEffect = function (url) {
 		if (this.effectCache[url] && this.effectCache[url] !== this.soundPlaceholder) {
