@@ -94,6 +94,7 @@ var BattleSoundLibrary = (function () {
 		}
 		this.bgmCache[url].onposition(loopend, function (evP) {
 			this.setPosition(this.position - (loopend - loopstart));
+			BattleSound.preloadBgm();
 			BattleSound.playBgm(this.bgm);
 		});
 		return this.bgmCache[url];
@@ -115,6 +116,7 @@ var BattleSoundLibrary = (function () {
 					//this.bgm.resume();
 					//AQUAMENTUS
 				} else {
+					this.preloadBgm();
 					this.bgm.play();
 				}
 			}
