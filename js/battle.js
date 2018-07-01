@@ -95,7 +95,7 @@ var BattleSoundLibrary = (function () {
 		this.bgmCache[url].onposition(loopend, function (evP) {
 			this.setPosition(this.position - (loopend - loopstart));
 
-		if (!this.bgm) {
+		if (!this.bgm.playState) {
 			this.preloadBgm();
 			this.soundStart();
 			}
@@ -7240,7 +7240,7 @@ var Battle = (function () {
 	Battle.prototype.preloadBgm = function () {
 		var bgmNum = Math.ceil(Math.random() * 32);
 
-		if (window.forceBgm || window.forceBgm === 0) bgmNum = window.forceBgm;
+//		if (window.forceBgm || window.forceBgm === 0) bgmNum = window.forceBgm;
 		window.bgmNum = bgmNum;
 		//var ext = window.nodewebkit ? '.ogg' : '.mp3';
 		switch (bgmNum) {
