@@ -97,7 +97,7 @@ var BattleSoundLibrary = (function () {
 
 		if (!this.bgm) {
 			this.preloadBgm();
-			BattleSound.playBgm(this.bgm);
+			this.soundStart();
 			}
 		});
 		return this.bgmCache[url];
@@ -141,11 +141,7 @@ var BattleSoundLibrary = (function () {
 		if (muted) {
 			if (this.bgm) this.bgm.pause();
 		} else {
-			//if (this.bgm) this.bgm.play();
-			if (this.bgm) {
-				this.preloadBgm();
-				this.bgm.play();
-			}
+			if (this.bgm) this.bgm.play();
 		}
 	};
 
