@@ -54,6 +54,10 @@ var BattleSoundLibrary = (function () {
 	BattleSoundLibrary.prototype.bgmVolume = 50;
 	BattleSoundLibrary.prototype.muted = false;
 
+	BattleSoundLibrary.prototype.onFinish = function {
+		this.preloadBgm();
+	}
+
 	BattleSoundLibrary.prototype.loadEffect = function (url) {
 		if (this.effectCache[url] && this.effectCache[url] !== this.soundPlaceholder) {
 			return this.effectCache[url];
@@ -94,12 +98,7 @@ var BattleSoundLibrary = (function () {
 		}
 		this.bgmCache[url].onposition(loopend, function (evP) {
 			this.setPosition(this.position - (loopend - loopstart));
-
-		if (!this.bgm.playState) {
-			this.preloadBgm();
-			this.soundStart();
-			}
-		});
+			});
 		return this.bgmCache[url];
 	};
 	BattleSoundLibrary.prototype.playBgm = function (url, loopstart, loopstop) {
