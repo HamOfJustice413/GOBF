@@ -7288,8 +7288,8 @@ var Battle = (function () {
 			this.bgm = 'audio/revueguile.mp3';
 			break;
 		case 12:
-			BattleSound.loadBgm('audio/oldschoolidk.mp3');
-			this.bgm = 'audio/oldschoolidk.mp3';
+			BattleSound.loadBgm('audio/crushedfuneralbloom.mp3');
+			this.bgm = 'audio/crushedfuneralbloom.mp3';
 			break;
 		case 13:
 			BattleSound.loadBgm('audio/simfearfactory.mp3');
