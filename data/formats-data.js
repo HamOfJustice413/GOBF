@@ -2919,8 +2919,8 @@ let BattleFormatsData = {
 	breloom: {
 		randomBattleMoves: ["spore", "machpunch", "bulletseed", "rocktomb", "swordsdance"],
 		randomDoubleBattleMoves: ["spore", "helpinghand", "machpunch", "bulletseed", "rocktomb", "protect", "drainpunch"],
-		tier: "UU",
-		doublesTier: "DUU",
+		tier: "UUBL",
+		doublesTier: "DOU",
 	},
 	slakoth: {
 		randomBattleMoves: ["doubleedge", "hammerarm", "firepunch", "counter", "retaliate", "toxic"],
@@ -4545,7 +4545,7 @@ let BattleFormatsData = {
 			{"generation": 7, "level": 100, "isHidden": false, "moves": ["magmastorm", "heatwave", "earthpower", "flashcannon"], "pokeball": "cherishball"},
 		],
 		eventOnly: true,
-		unreleasedHidden: true,
+		
 		tier: "OU",
 		doublesTier: "DOU",
 	},
@@ -6043,8 +6043,8 @@ let BattleFormatsData = {
 	floetteeternal: {
 		randomBattleMoves: ["lightofruin", "psychic", "hiddenpowerfire", "hiddenpowerground", "moonblast"],
 		randomDoubleBattleMoves: ["lightofruin", "dazzlinggleam", "wish", "psychic", "aromatherapy", "protect", "calmmind"],
-		isUnreleased: true,
-		tier: "Unreleased",
+		tier: "UU",
+		doublesTier: "DUU",
 	},
 	florges: {
 		randomBattleMoves: ["calmmind", "moonblast", "synthesis", "aromatherapy", "wish", "toxic", "protect", "defog"],
@@ -6293,12 +6293,12 @@ let BattleFormatsData = {
 	},
 	pumpkaboosmall: {
 		randomBattleMoves: ["willowisp", "shadowsneak", "destinybond", "synthesis", "seedbomb"],
-		unreleasedHidden: true,
+		
 		tier: "LC",
 	},
 	pumpkaboolarge: {
 		randomBattleMoves: ["willowisp", "shadowsneak", "leechseed", "synthesis", "seedbomb"],
-		unreleasedHidden: true,
+		
 		tier: "LC",
 	},
 	pumpkaboosuper: {
@@ -6317,14 +6317,14 @@ let BattleFormatsData = {
 	gourgeistsmall: {
 		randomBattleMoves: ["willowisp", "seedbomb", "leechseed", "shadowsneak", "substitute", "synthesis"],
 		randomDoubleBattleMoves: ["willowisp", "shadowsneak", "painsplit", "seedbomb", "leechseed", "phantomforce", "explosion", "protect"],
-		unreleasedHidden: true,
+		
 		tier: "PU",
 		doublesTier: "DUU",
 	},
 	gourgeistlarge: {
 		randomBattleMoves: ["willowisp", "seedbomb", "leechseed", "shadowsneak", "substitute", "synthesis"],
 		randomDoubleBattleMoves: ["willowisp", "shadowsneak", "painsplit", "seedbomb", "leechseed", "phantomforce", "explosion", "protect", "trickroom"],
-		unreleasedHidden: true,
+		
 		tier: "PU",
 		doublesTier: "DUU",
 	},
@@ -6755,7 +6755,7 @@ let BattleFormatsData = {
 		eventPokemon: [
 			{"generation": 7, "level": 1, "shiny": 1, "isHidden": false, "abilities": ["telepathy"], "moves": ["instruct", "psychic", "psychicterrain"], "pokeball": "cherishball"},
 		],
-		unreleasedHidden: true,
+		
 		tier: "PU",
 		doublesTier: "DOU",
 	},
@@ -6765,7 +6765,7 @@ let BattleFormatsData = {
 		eventPokemon: [
 			{"generation": 7, "level": 1, "shiny": 1, "isHidden": false, "moves": ["bestow", "fling", "feint"], "pokeball": "cherishball"},
 		],
-		unreleasedHidden: true,
+		
 		tier: "NU",
 		doublesTier: "DUU",
 	},
@@ -7038,7 +7038,7 @@ let BattleFormatsData = {
 			{"generation": 7, "level": 60, "shiny": true, "nature": "Timid", "isHidden": false, "moves": ["naturesmadness", "discharge", "agility", "electroball"], "pokeball": "cherishball"},
 		],
 		eventOnly: true,
-		unreleasedHidden: true,
+		
 		tier: "OU",
 		doublesTier: "DOU",
 	},
@@ -7049,7 +7049,7 @@ let BattleFormatsData = {
 			{"generation": 7, "level": 60, "isHidden": false, "moves": ["naturesmadness", "extrasensory", "flatter", "moonblast"]},
 		],
 		eventOnly: true,
-		unreleasedHidden: true,
+		
 		tier: "OU",
 		doublesTier: "DOU",
 	},
@@ -7060,7 +7060,7 @@ let BattleFormatsData = {
 			{"generation": 7, "level": 60, "isHidden": false, "moves": ["naturesmadness", "zenheadbutt", "megahorn", "skullbash"]},
 		],
 		eventOnly: true,
-		unreleasedHidden: true,
+		
 		tier: "OU",
 		doublesTier: "DOU",
 	},
@@ -7071,7 +7071,7 @@ let BattleFormatsData = {
 			{"generation": 7, "level": 60, "isHidden": false, "moves": ["naturesmadness", "muddywater", "aquaring", "hydropump"]},
 		],
 		eventOnly: true,
-		unreleasedHidden: true,
+		
 		tier: "OU",
 		doublesTier: "DOU",
 	},
@@ -7228,8 +7228,8 @@ let BattleFormatsData = {
 		doublesTier: "DUber",
 	},
 	magearnaoriginal: {
-		isUnreleased: true,
-		tier: "Unreleased",
+		isUnreleased: false,
+		tier: "OU",
 	},
 	marshadow: {
 		randomBattleMoves: ["spectralthief", "closecombat", "stoneedge", "shadowsneak", "icepunch"],
@@ -7274,8 +7274,8 @@ let BattleFormatsData = {
 	},
 	zeraora: {
 		randomBattleMoves: ["plasmafists", "closecombat", "voltswitch", "hiddenpowerice", "knockoff", "grassknot", "workup"],
-		isUnreleased: true,
-		tier: "Unreleased",
+		tier: "UU",
+		doublesTier: "DUU",
 	},
 	missingno: {
 		randomBattleMoves: ["watergun", "skyattack", "doubleedge", "metronome"],
