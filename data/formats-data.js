@@ -7040,7 +7040,7 @@ let BattleFormatsData = {
 		],
 		eventOnly: true,
 		
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	tapulele: {
@@ -7053,7 +7053,7 @@ let BattleFormatsData = {
 
 		eventOnly: true,
 		
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	tapubulu: {
@@ -7065,7 +7065,7 @@ let BattleFormatsData = {
 		],
 		eventOnly: true,
 		
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	tapufini: {
@@ -7077,7 +7077,7 @@ let BattleFormatsData = {
 		],
 		eventOnly: true,
 		
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	cosmog: {
