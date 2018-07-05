@@ -636,19 +636,19 @@ Storage.packTeam = function (team) {
 		var template = Tools.getTemplate(set.species || set.name);
 		var abilities = template.abilities;
 		id = toId(set.ability);
-		if (abilities) {
-			if (id == toId(abilities['0'])) {
-				buf += '|';
-			} else if (id === toId(abilities['1'])) {
-				buf += '|1';
-			} else if (id === toId(abilities['H'])) {
-				buf += '|H';
-			} else {
-				buf += '|' + id;
-			}
-		} else {
+		//if (abilities) {
+		//	if (id == toId(abilities['0'])) {
+		//		buf += '|';
+		//	} else if (id === toId(abilities['1'])) {
+		//		buf += '|1';
+		//	} else if (id === toId(abilities['H'])) {
+		//		buf += '|H';
+		//	} else {
+		//		buf += '|' + id;
+		//	}
+		//} else {
 			buf += '|' + id;
-		}
+		//}
 
 		// moves
 		buf += '|';
