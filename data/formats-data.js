@@ -7230,6 +7230,7 @@ let BattleFormatsData = {
 	magearnaoriginal: {
 		isUnreleased: false,
 		tier: "OU",
+		doublesTier: "DUber",
 	},
 	marshadow: {
 		randomBattleMoves: ["spectralthief", "closecombat", "stoneedge", "shadowsneak", "icepunch"],
