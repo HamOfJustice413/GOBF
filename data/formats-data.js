@@ -2919,7 +2919,7 @@ let BattleFormatsData = {
 	breloom: {
 		randomBattleMoves: ["spore", "machpunch", "bulletseed", "rocktomb", "swordsdance"],
 		randomDoubleBattleMoves: ["spore", "helpinghand", "machpunch", "bulletseed", "rocktomb", "protect", "drainpunch"],
-		tier: "UUBL",
+		tier: "BL",
 		doublesTier: "DOU",
 	},
 	slakoth: {
@@ -7035,6 +7035,7 @@ let BattleFormatsData = {
 		randomDoubleBattleMoves: ["wildcharge", "voltswitch", "dazzlinggleam", "bravebird", "protect", "thunderbolt", "hiddenpowerice", "taunt", "skydrop", "naturesmadness", "uturn"],
 		eventPokemon: [
 			{"generation": 7, "level": 60, "isHidden": false, "moves": ["naturesmadness", "discharge", "agility", "electroball"]},
+			{"generation": 7, "level": 60, "isHidden": true, "moves": ["naturesmadness", "discharge", "agility", "electroball"]},
 			{"generation": 7, "level": 60, "shiny": true, "nature": "Timid", "isHidden": false, "moves": ["naturesmadness", "discharge", "agility", "electroball"], "pokeball": "cherishball"},
 		],
 		eventOnly: true,
@@ -7047,7 +7048,9 @@ let BattleFormatsData = {
 		randomDoubleBattleMoves: ["moonblast", "psychic", "dazzlinggleam", "focusblast", "protect", "taunt", "shadowball", "thunderbolt"],
 		eventPokemon: [
 			{"generation": 7, "level": 60, "isHidden": false, "moves": ["naturesmadness", "extrasensory", "flatter", "moonblast"]},
+			{"generation": 7, "level": 60, "isHidden": true, "moves": ["naturesmadness", "extrasensory", "flatter", "moonblast"]},
 		],
+
 		eventOnly: true,
 		
 		tier: "OU",
@@ -7058,6 +7061,7 @@ let BattleFormatsData = {
 		randomDoubleBattleMoves: ["woodhammer", "hornleech", "stoneedge", "superpower", "leechseed", "protect", "naturesmadness"],
 		eventPokemon: [
 			{"generation": 7, "level": 60, "isHidden": false, "moves": ["naturesmadness", "zenheadbutt", "megahorn", "skullbash"]},
+			{"generation": 7, "level": 60, "isHidden": true, "moves": ["naturesmadness", "zenheadbutt", "megahorn", "skullbash"]},
 		],
 		eventOnly: true,
 		
@@ -7069,6 +7073,7 @@ let BattleFormatsData = {
 		randomDoubleBattleMoves: ["muddywater", "moonblast", "calmmind", "icebeam", "healpulse", "protect", "taunt", "swagger"],
 		eventPokemon: [
 			{"generation": 7, "level": 60, "isHidden": false, "moves": ["naturesmadness", "muddywater", "aquaring", "hydropump"]},
+			{"generation": 7, "level": 60, "isHidden": true, "moves": ["naturesmadness", "muddywater", "aquaring", "hydropump"]},
 		],
 		eventOnly: true,
 		
