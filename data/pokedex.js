@@ -14172,7 +14172,7 @@ exports.BattlePokedex = {
 		forme: "Frontier",
 		formeLetter: "F",
 		baseStats: {hp: 84, atk: 111, def: 88, spa: 60, spd: 86, spe: 101},
-		abilities: {0: "Tough Claws"},
+		abilities: {0: "Dancer"},
 		heightm: 1.7,
 		weightkg: 84.5,
 		color: "Blue",
