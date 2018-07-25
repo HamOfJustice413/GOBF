@@ -55,9 +55,8 @@ var BattleSoundLibrary = (function () {
 	BattleSoundLibrary.prototype.muted = false;
 
 	BattleSoundLibrary.prototype.onFinish = function (url) {
-		this.stopBgm();
 		this.preloadBgm();
-		this.soundStart();
+		this.bgm.play();
 	};
 
 	BattleSoundLibrary.prototype.loadEffect = function (url) {
@@ -124,14 +123,15 @@ var BattleSoundLibrary = (function () {
 	};
 	BattleSoundLibrary.prototype.pauseBgm = function () {
 		if (this.bgm) {
-			this.bgm.pause();
+		//	this.bgm.pause();
+			this.bgm.stop();
+			this.bgm = null;
 		}
 	};
 	BattleSoundLibrary.prototype.stopBgm = function () {
 		if (this.bgm) {
 			this.bgm.stop();
-//			this.bgm = null;
-//			this.preloadBgm();
+			this.bgm = null;
 		}
 	};
 
@@ -7374,13 +7374,14 @@ var Battle = (function () {
 			BattleSound.loadBgm('audio/justyouandme.mp3');
 			this.bgm = 'audio/justyouandme.mp3';
 			break;
+
 		}
 	};
 	Battle.prototype.setMute = function (mute) {
 		BattleSound.setMute(mute);
 	};
 	Battle.prototype.soundStart = function () {
-//		if (!this.bgm) this.preloadBgm();
+		if (!this.bgm) this.preloadBgm();
 		BattleSound.playBgm(this.bgm);
 	};
 	Battle.prototype.soundStop = function () {
