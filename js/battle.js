@@ -124,15 +124,14 @@ var BattleSoundLibrary = (function () {
 	};
 	BattleSoundLibrary.prototype.pauseBgm = function () {
 		if (this.bgm) {
-//			this.bgm.pause();
-			this.stopBgm();
+			this.bgm.pause();
 		}
 	};
 	BattleSoundLibrary.prototype.stopBgm = function () {
 		if (this.bgm) {
 			this.bgm.stop();
-			this.bgm = null;
-			this.preloadBgm();
+//			this.bgm = null;
+//			this.preloadBgm();
 		}
 	};
 
