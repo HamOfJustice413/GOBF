@@ -124,7 +124,6 @@ var BattleSoundLibrary = (function () {
 	BattleSoundLibrary.prototype.stopBgm = function () {
 		if (this.bgm) {
 			this.bgm.stop();
-			this.bgm = null;
 			this.preloadBgm();
 		}
 	};
@@ -2462,7 +2461,7 @@ var Battle = (function () {
 
 		this.preloadDone = 0;
 		this.preloadNeeded = 0;
-		this.bgm = null;
+		this.bgm = 1;
 
 		this.mute = false;
 		this.messageFadeTime = 300;
