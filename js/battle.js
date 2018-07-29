@@ -7237,7 +7237,7 @@ var Battle = (function () {
 		}
 	};
 	Battle.prototype.preloadBgm = function () {
-		var bgmNum = Math.ceil(Math.random() * 32);
+		var bgmNum = Math.ceil(Math.random() * 37);
 
 //		if (window.forceBgm || window.forceBgm === 0) bgmNum = window.forceBgm;
 		window.bgmNum = bgmNum;
@@ -7371,7 +7371,26 @@ var Battle = (function () {
 			BattleSound.loadBgm('audio/justyouandme.mp3');
 			this.bgm = 'audio/justyouandme.mp3';
 			break;
-
+		case 33:
+			BattleSound.loadBgm('audio/Sunshower.mp3');
+			this.bgm = 'audio/sunshower.mp3';
+			break;
+		case 34:
+			BattleSound.loadBgm('audio/Gemini.mp3');
+			this.bgm = 'audio/Gemini.mp3';
+			break;		
+		case 35:
+			BattleSound.loadBgm('audio/Luminance.mp3');
+			this.bgm = 'audio/Luminance.mp3';
+			break;
+		case 36:
+			BattleSound.loadBgm('audio/Netzach.mp3');
+			this.bgm = 'audio/Netzach.mp3';
+			break;
+		case 37:
+			BattleSound.loadBgm('audio/night of nights.mp3');
+			this.bgm = 'audio/night of nights.mp3';
+			break;		
 		}
 	};
 	Battle.prototype.setMute = function (mute) {
