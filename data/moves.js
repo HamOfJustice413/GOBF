@@ -522,7 +522,7 @@ let BattleMovedex = {
 			},
 			onResidualOrder: 6,
 			onResidual: function (pokemon) {
-				this.heal(pokemon.maxhp / 16);
+				this.heal(pokemon.maxhp / 8);
 			},
 		},
 		secondary: false,
@@ -8597,7 +8597,7 @@ let BattleMovedex = {
 			},
 			onResidualOrder: 7,
 			onResidual: function (pokemon) {
-				this.heal(pokemon.maxhp / 16);
+				this.heal(pokemon.maxhp / 8);
 			},
 			onTrapPokemon: function (pokemon) {
 				pokemon.tryTrap();
@@ -19305,10 +19305,10 @@ let BattleMovedex = {
 	"finalscythe": {
 		num: 1001,
 		accuracy: 100,
-		basePower: 100,
+		basePower: 110,
 		category: "Physical",
 		desc: "High crit ratio. Lowers the user's Attack by 2 stages if this move does not knock out the target.",
-		shortDesc: "High crit. Lowers user's Attack by 2 if it doesn't KO the target.",
+		shortDesc: "High crit. Lowers user's Attack by 2 if it doesn't KO.",
 		id: "finalscythe",
 		isViable: true,
 		name: "Final Scythe",

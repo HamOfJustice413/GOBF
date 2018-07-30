@@ -2680,7 +2680,7 @@ let BattleFormatsData = {
 			{"generation": 5, "level": 10, "gender": "M", "isHidden": true, "moves": ["scratch", "growl", "focusenergy", "ember"]},
 			{"generation": 6, "level": 10, "gender": "M", "isHidden": true, "moves": ["scratch", "growl", "focusenergy", "ember"], "pokeball": "cherishball"},
 		],
-		tier: "LC Uber",
+		tier: "LC",
 	},
 	combusken: {
 		randomBattleMoves: ["flareblitz", "skyuppercut", "protect", "swordsdance", "substitute", "batonpass", "shadowclaw"],
@@ -2692,7 +2692,7 @@ let BattleFormatsData = {
 			{"generation": 3, "level": 70, "moves": ["blazekick", "slash", "mirrormove", "skyuppercut"], "pokeball": "pokeball"},
 			{"generation": 5, "level": 50, "shiny": 1, "isHidden": false, "moves": ["flareblitz", "highjumpkick", "thunderpunch", "stoneedge"], "pokeball": "cherishball"},
 		],
-		tier: "Uber",
+		tier: "UU",
 		doublesTier: "DUU",
 	},
 	blazikenmega: {
@@ -7036,6 +7036,8 @@ let BattleFormatsData = {
 		eventPokemon: [
 			{"generation": 7, "level": 60, "isHidden": false, "moves": ["naturesmadness", "discharge", "agility", "electroball"]},
 			{"generation": 7, "level": 60, "isHidden": true, "moves": ["naturesmadness", "discharge", "agility", "electroball"]},
+		{"generation": 7, "level": 60, "shiny": true, "isHidden": false, "moves": ["naturesmadness", "discharge", "agility", "electroball"]},
+		{"generation": 7, "level": 60, "shiny": true, "isHidden": true, "moves": ["naturesmadness", "discharge", "agility", "electroball"]},
 			{"generation": 7, "level": 60, "shiny": true, "nature": "Timid", "isHidden": false, "moves": ["naturesmadness", "discharge", "agility", "electroball"], "pokeball": "cherishball"},
 		],
 		eventOnly: true,
@@ -7049,6 +7051,9 @@ let BattleFormatsData = {
 		eventPokemon: [
 			{"generation": 7, "level": 60, "isHidden": false, "moves": ["naturesmadness", "extrasensory", "flatter", "moonblast"]},
 			{"generation": 7, "level": 60, "isHidden": true, "moves": ["naturesmadness", "extrasensory", "flatter", "moonblast"]},
+		{"generation": 7, "level": 60, "shiny": true, "isHidden": false, "moves": ["naturesmadness", "extrasensory", "flatter", "moonblast"]},
+		{"generation": 7, "level": 60, "shiny": true, "isHidden": true, "moves": ["naturesmadness", "extrasensory", "flatter", "moonblast"]},
+
 		],
 
 		eventOnly: true,
@@ -7062,7 +7067,10 @@ let BattleFormatsData = {
 		eventPokemon: [
 			{"generation": 7, "level": 60, "isHidden": false, "moves": ["naturesmadness", "zenheadbutt", "megahorn", "skullbash"]},
 			{"generation": 7, "level": 60, "isHidden": true, "moves": ["naturesmadness", "zenheadbutt", "megahorn", "skullbash"]},
-		],
+		{"generation": 7, "level": 60, "shiny": true, "isHidden": false, "moves": ["naturesmadness", "zenheadbutt", "megahorn", "skullbash"]},
+		{"generation": 7, "level": 60, "shiny": true, "isHidden": true, "moves": ["naturesmadness", "zenheadbutt", "megahorn", "skullbash"]},
+		
+	],
 		eventOnly: true,
 		
 		tier: "UU",
@@ -7074,6 +7082,9 @@ let BattleFormatsData = {
 		eventPokemon: [
 			{"generation": 7, "level": 60, "isHidden": false, "moves": ["naturesmadness", "muddywater", "aquaring", "hydropump"]},
 			{"generation": 7, "level": 60, "isHidden": true, "moves": ["naturesmadness", "muddywater", "aquaring", "hydropump"]},
+		{"generation": 7, "level": 60, "shiny": true, "isHidden": false, "moves": ["naturesmadness", "muddywater", "aquaring", "hydropump"]},
+		{"generation": 7, "level": 60, "shiny": true, "isHidden": true, "moves": ["naturesmadness", "muddywater", "aquaring", "hydropump"]},
+
 		],
 		eventOnly: true,
 		

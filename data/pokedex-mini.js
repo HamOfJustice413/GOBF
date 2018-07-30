@@ -1167,5 +1167,8 @@ exports.BattlePokemonSprites = {
 	florgesfrontier: {num:671},
 	goodrafronter: {num:706},
 	infernapefrontier: {num:392},
-	empoleonfrontier: {num:395}
+	empoleonfrontier: {num:395},
+	magnemitefrontier: {num:81},
+	magnetonfrontier: {num:82},
+	magnezonefrontier: {num:462},
 };

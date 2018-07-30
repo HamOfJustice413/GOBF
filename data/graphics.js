@@ -34801,6 +34801,7 @@ var BattleMoveAnims = {
 };
 
 // placeholder animations
+
 BattleMoveAnims['torment'] = {anim:BattleMoveAnims['swagger'].anim};
 
 BattleMoveAnims['mefirst'] = {anim:BattleMoveAnims['mimic'].anim};
@@ -35054,3 +35055,6 @@ BattleMoveAnims['genesissupernova'] = {anim:BattleMoveAnims['psychoboost'].anim}
 BattleMoveAnims['10000000voltthunderbolt'] = {anim:BattleMoveAnims['triattack'].anim};
 BattleMoveAnims['menacingmoonrazemaelstrom'] = {anim:BattleMoveAnims['moongeistbeam'].anim};
 BattleMoveAnims['lightthatburnsthesky'] = {anim:BattleMoveAnims['fusionflare'].anim};
+
+BattleMoveAnims['finalscythe'] = {anim:BattleMoveAnims['guillotine'].anim};
+BattleMoveAnims['metallurgy'] = {anim:BattleMoveAnims['mirrorshot'].anim};
