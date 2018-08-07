@@ -7237,7 +7237,7 @@ var Battle = (function () {
 		}
 	};
 	Battle.prototype.preloadBgm = function () {
-		var bgmNum = Math.ceil(Math.random() * 37);
+		var bgmNum = Math.ceil(Math.random() * 39);
 
 //		if (window.forceBgm || window.forceBgm === 0) bgmNum = window.forceBgm;
 		window.bgmNum = bgmNum;
@@ -7390,7 +7390,15 @@ var Battle = (function () {
 		case 37:
 			BattleSound.loadBgm('audio/night of nights.mp3');
 			this.bgm = 'audio/night of nights.mp3';
-			break;		
+			break;
+		case 38:
+			BattleSound.loadBgm('audio/Soul Candy - Where Is Everyone_.mp3');
+			this.bgm = 'audio/Soul Candy - Where Is Everyone_.mp3';
+			break;
+		case 39:
+			BattleSound.loadBgm('audio/Final_Fantasy_6_The_Narshemellow_OC_ReMix.mp3');
+			this.bgm = 'audio/Final_Fantasy_6_The_Narshemellow_OC_ReMix.mp3';
+			break;	
 		}
 	};
 	Battle.prototype.setMute = function (mute) {
