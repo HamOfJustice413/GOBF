@@ -7384,8 +7384,8 @@ var Battle = (function () {
 			this.bgm = 'audio/Luminance.mp3';
 			break;
 		case 36:
-			BattleSound.loadBgm('audio/Netzach.mp3');
-			this.bgm = 'audio/Netzach.mp3';
+			BattleSound.loadBgm('audio/guitarfusion.mp3');
+			this.bgm = 'audio/guitarfusion.mp3';
 			break;
 		case 37:
 			BattleSound.loadBgm('audio/night of nights.mp3');
